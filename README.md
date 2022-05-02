@@ -1,4 +1,7 @@
-# RANDOM CLASSIFICATION
+## EX.NO: 01
+## DATE:
+
+# <p align="center"> RANDOM CLASSIFICATION
 ## AIM:
 To write a python program to perform random classification.
 
@@ -33,7 +36,8 @@ plt.title('Random Clasification Data with 2 classes')
 ```
 
 ## Output:
-![RANDOM CLASSIFICATION - Jupyter Notebook — Mozilla Firefox 20-04-2022 19_32_40](https://user-images.githubusercontent.com/75235386/164249490-094a9e0b-ba24-4b3c-bf7b-c2e77b4f95dd.png)
+![RANDOM CLASSIFICATION - Jupyter Notebook — Mozilla Firefox 20-04-2022 19_32_40 (2)](https://user-images.githubusercontent.com/75235386/166241371-821ef571-35ed-465c-95cc-7b0d2eac41b5.png)
+
 
 
 
