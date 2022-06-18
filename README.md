@@ -1,26 +1,36 @@
-## EX.NO: 01
-## DATE:
-# <p align="center"> RANDOM CLASSIFICATION
+### EX NO:01
+### DATE: 04.04.2022
+# <p align="center">RANDOM CLASSIFICATION<p/>
 ## AIM:
 To write a python program to perform random classification.
 
-## Equipments Required:
+## EQUIPMENTS REQUIRED:
 1. Hardware – PCs
 2. Anaconda – Python 3.7 Installation / Google Colab /Jupiter Notebook
 
-## Related Theoritical Concept:
+## RELATED THEORITICAL CONCEPT:
+<ins>Random classifier</ins>: It creates a set of decision trees from randomly selected subset of training set. It then aggregates the votes from different decision trees to decide the final class of the test object. Random Forest is suitable for situations when we have a large dataset, and interpretability is not a major concern.
 
-## Algorithm
+<ins>Purpose of Random classifier</ins>: One of the most important features of the Random Forest Algorithm is that it can handle the data set containing continuous variables as in the case of regression and categorical variables as in the case of classification.
+
+## ALGORITHM:
 1. In Random forest n number of random records are taken from the data set having k number of records.
 2. Individual decision trees are constructed for each sample.
-3. Each decision tree will generate an output. 
+3. Each decision tree will generate an output.
 4. Final output is considered based on Majority Voting or Averaging for Classification and regression respectively.
 
-## Program:
-```
+<br>
+<br> 
+<br>
+<br>
+
+## PROGRAM:
+```python
+
 Program to implement random classification.
-Developed by   : Aditya JV
-RegisterNumber : 212220230002
+Developed by   :  ADITYA JV
+RegisterNumber :  212220230002
+
 
 import matplotlib.pyplot as plt
 from sklearn import datasets
@@ -30,15 +40,11 @@ plt.plot(x[:,0][y==0],x[:,1][y==0],'r^')
 plt.plot(x[:,0][y==1],x[:,1][y==1],'bs')
 plt.xlabel("feature 1")
 plt.ylabel("feature 2")
-plt.title('Random Clasification Data with 2 classes')
-
+plt.title('Random Classification Data with 2 classes')
 ```
 
-## Output:
-![RANDOM CLASSIFICATION - Jupyter Notebook — Mozilla Firefox 20-04-2022 19_32_40 (2)](https://user-images.githubusercontent.com/75235386/166241371-821ef571-35ed-465c-95cc-7b0d2eac41b5.png)
+## OUTPUT:
+<img width="505" alt="output" src="https://user-images.githubusercontent.com/75234991/163532920-70581c32-b131-41bb-8f9e-d7bf011bf901.png">
 
-
-
-
-## Result:
+## RESULT:
 Thus the random classifier was successfully implemented using python programming.
